@@ -1,0 +1,33 @@
+{
+  "comparison": [
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.8003,
+      "precision_macro": 0.7967,
+      "recall_macro": 0.7891,
+      "f1_macro": 0.792
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.7898,
+      "precision_macro": 0.784,
+      "recall_macro": 0.7883,
+      "f1_macro": 0.7856
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.7912,
+      "precision_macro": 0.7852,
+      "recall_macro": 0.7852,
+      "f1_macro": 0.7852
+    }
+  ],
+  "validation": {
+    "model": "Gradient Boosting - supplied validation set",
+    "accuracy": 0.8008,
+    "precision_macro": 0.7959,
+    "recall_macro": 0.7939,
+    "f1_macro": 0.7948
+  },
+  "note": "Metrics are dataset-based estimates, not a guarantee of real-world placement outcomes."
+}
